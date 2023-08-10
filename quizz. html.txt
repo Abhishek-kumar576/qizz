@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz or Flashcards Website</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Quiz or Flashcards </h1>
+</header>
+<main>
+    <section class="card">
+        <h2>Question 1</h2>
+        <p>This is the front side of the flashcard.</p>
+        <button class="flip-button">Flip</button>
+    </section>
+    <section class="card" d=flex >
+        <h2>Question 2</h2>
+        <p>who is the prime minister</p>
+        <button class="flip-button">Flip</button>
+    </section>
+    <!-- Add more flashcards or quiz questions here -->
+ 
+  <form action="/action_page.php">
+  
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">puneeth superstar</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">narendra modi</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+    <label for="javascript">KCR</labeL>
+    <button class="submit-button">Submit</button>
+</main>
+
+  <html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagination</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <ul class="page">
+            <a href="#page" class=""> <li> Previous</li> </a>
+            <a href="#page" class=""> <li> Next</li> </a>
+            <a href="#page" class="active"> <li> 1</li> </a>
+            <a href="#page" class=""> <li> 2</li> </a>
+            <a href="#page" class=""> <li> 3</li> </a>
+            <a href="#page" class=""> <li> 4</li> </a>
+            <a href="#page" class=""> <li> 5</li> </a>
+ <footer>         
+    <p>&copy; 2023 Quiz or Flashcards Website</p>
+</footer>
+</body>
